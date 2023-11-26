@@ -1,0 +1,120 @@
+body{
+    background-color: #87c7f5;
+}
+*{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.ps
+{
+    color: #87c7f5;
+    background-color: #043f69;
+    height: 150px;
+    text-align: center;
+    font-size: 250%;
+    padding-top: 30px;
+    
+}
+#asort{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.produkt{
+border-radius: 10%;
+-webkit-box-shadow: 6px 1px 25px -9px rgba(4, 63, 105, 1);
+-moz-box-shadow: 6px 1px 25px -9px rgba(4, 63, 105, 1);
+box-shadow: 6px 1px 25px -9px rgba(4, 63, 105, 1);
+margin: 30px;
+background-color: rgba(4, 63, 105, 1);
+background-image: linear-gradient(204deg, rgba(4, 63, 105, 1) 0%, rgba(135, 199, 245, 1) 88%);
+transition: background 1s;
+}
+.produkt:hover{
+    background-color: rgba(4, 63, 105, 1);
+background-image: linear-gradient(159deg, rgba(4, 63, 105, 1) 32%, rgba(135, 199, 245, 1) 91%);
+}
+.pz{
+    height: 300px;
+}
+a
+{
+   
+    color: #87c7f5;
+    font-size: 80%;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.men_a{
+    font-size: 120%;
+    transition: 0.3s;
+}
+a:hover{
+    text-shadow: -4px 1px 13px rgba(185, 185, 202, 1);
+}
+#panel{
+    width: 10%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    color: #87c7f5;
+    height:730px;
+    background-color: rgba(4, 63, 105, 1);
+    background-image: linear-gradient(180deg, rgba(4, 63, 105, 1) 23%, rgba(135, 199, 245, 1) 95%);
+}
+@media screen and (max-width: 768px){
+    .ps
+{
+    color: #87c7f5;
+    background-color: #043f69;
+    height: 50px;
+    text-align: center;
+    font-size: 100%;
+    padding-top: 15px;
+    
+}
+#asort{
+    width: 83%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.produkt{
+    border-radius: 10%;
+    -webkit-box-shadow: 6px 1px 25px -9px rgba(4, 63, 105, 1);
+    -moz-box-shadow: 6px 1px 25px -9px rgba(4, 63, 105, 1);
+    box-shadow: 6px 1px 25px -9px rgba(4, 63, 105, 1);
+    margin: 10px;
+    background-color: rgba(4, 63, 105, 1);
+    background-image: linear-gradient(204deg, rgba(4, 63, 105, 1) 0%, rgba(135, 199, 245, 1) 88%);
+    transition: background 1s;
+    }
+    .produkt:hover{
+        background-color: rgba(4, 63, 105, 1);
+    background-image: linear-gradient(159deg, rgba(4, 63, 105, 1) 32%, rgba(135, 199, 245, 1) 91%);
+    }
+    .pz{
+        height: 60px;
+    }
+    .men_a{
+        font-size: 50%;
+        transition: 0.3s;
+        display: flex;
+        justify-content: start;
+        margin-left: 0;
+    }
+    #panel{
+        width: 17%;
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        float: left;
+        color: #87c7f5;
+        height:730px;
+        background-color: rgba(4, 63, 105, 1);
+        background-image: linear-gradient(180deg, rgba(4, 63, 105, 1) 23%, rgba(135, 199, 245, 1) 95%);
+    }
+}

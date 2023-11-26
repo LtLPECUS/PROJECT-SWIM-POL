@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>PŁYW-POL</title>
+    <link rel=stylesheet href="styl8.css">
+</head>
+<body>
+    <div class="ps">
+        <h2><b>PŁYW-POL</b></h2>
+
+        <a href="sklep.html">Sklep</a>
+         |
+        <a href="#onas">O nas</a>
+        |
+        <a href="#">Kontakt</a>
+    </div>
+    <div class="baner">
+        <img class="an_ban" src="standard.gif">
+    </div>
+    <div id="ev">
+    <div class="opis" id="onas">
+        <p>KATEGORIE</p>
+    </div>
+    <div id="kateg">
+    <a href="skl_okulary.html">
+    <div class="prod1 p1">
+        <img class="zdj"src="okulary.png" alt="okulary kąpielowe">
+        <br>
+        <p>Okulary Pływackie</p>
+    </div>
+</a>
+<a href="skl_stroje.html">
+     <div class="prod1 p2">
+        <img class="zdj"src="stroj.png" alt="strój kąpielowy">
+        <br>
+        <p>Stroje Kąpielowe</p>
+    </div>
+</a>
+<a href="skl_czepki.html">
+     <div class="prod1 p3">
+        <img class="zdj" src="czepek.png" alt="czepki">
+        <br>
+        <p>Czepki Kąpielowe</p>
+    </div>
+</a>
+<a href="skl_akcesoria.html">
+     <div class="prod1 p4">
+        <img class="zdj"src="akcesoria.png" alt="akcesoria">
+        <br>
+        <p>Akcesoria</p>
+    </div>
+</a>
+</div>
+    <fieldset>
+    Od ponad 10 lat sklep pływacki PŁYW-POL wyposaża wyczynowych pływaków w najlepsze rzeczy do pływania. 
+    Jeśli interesuje Ciebie profesjonalny sprzęt pływacki to trafiłeś w odpowiednie miejsce. 
+    Wychodząc na przeciw oczekiwaniom naszych klientów stworzyliśmy sklep dla pływaków z najlepszymi markami w przystępnych cenach. 
+    Staramy się zapewnić najlepszą obsługę klienta na rynku połączoną z szybką wysyłką rzeczy na basen.
+    Wybierzesz swój ulubiony sprzęt do pływania z wielu marek dostępnych w naszym sklepie pływackim. Znamy naszych klientów i wiemy, 
+    że liczy się dla nich styl dlatego dostępna odzież pływacka w sklepie PŁYW-POL jest najlepszej jakości.
+</fieldset>
+<div id="Slides">
+<div class="slider_frame">
+    <div class="slider">
+    <div class="slide">
+          <img class="zdj2" src="sl1.jpg">
+    </div>
+    <div class="slide">
+          <img class="zdj2" src="sl2.jpg">
+    </div>
+    <div class="slide">
+          <img class="zdj2" src="sl3.jpg">
+    </div>
+    </div>
+</div>
+
+</div>
+
+</div>
+    <div class="stopka">
+       <table>
+       
+       <tr>
+        <th><h2 class="zdj3">Nasze Marki:</h2></th>
+       <tr/>
+       <tr>
+        <td><img class="zdj3" id="arena" src="l_arena_sz.png" onmouseover="zmiana()" onmouseout="zmianap()"></td>
+         <td><img class="zdj3" id="quechua" src="l_quechua_sz.png" onmouseover="zmiana2()" onmouseout="zmianap2()"></td>
+        <td><img class="zdj3" id="speedo" src="l_speedo_sz.png" onmouseover="zmiana3()" onmouseout="zmianap3()"></td>
+        </tr>
+        </table>
+    </div> 
+    <script>
+        //zmiana marki 
+    function zmiana()
+        {
+        document.getElementById("arena").src = "l_arena.png"
+        }
+    function zmianap()
+        {
+        document.getElementById("arena").src = "l_arena_sz.png"
+        }
+        function zmiana2()
+        {
+        document.getElementById("quechua").src = "l_quechua.png"
+        }
+        function zmianap2()
+        {
+        document.getElementById("quechua").src = "l_quechua_sz.png"
+        }
+        function zmiana3()
+        {
+        document.getElementById("speedo").src = "l_speedo.png"
+        }
+        function zmianap3()
+        {
+        document.getElementById("speedo").src = "l_speedo_sz.png"
+        }
+        //przezroczysty baner 
+        window.addEventListener('scroll', function() 
+        {
+        var element = document.querySelector('.ps'); 
+        var scrolled = window.scrollY;
+
+        if (scrolled > 10) 
+        { 
+             element.style.opacity = '0.8'; 
+             element.style.transition = '1s';
+        } 
+        else 
+        {
+            element.style.opacity = '1'; 
+        }
+        });
+    </script>
+</body>
+</html>
